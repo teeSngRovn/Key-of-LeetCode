@@ -1,5 +1,5 @@
 ---
-Solution-of-TwoSum
+ Solution-of-TwoSum
 ---
 - In order to match the target,first 
 
