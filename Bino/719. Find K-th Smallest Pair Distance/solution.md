@@ -1,6 +1,6 @@
 # Sliding Window
 ```
-We will use method called Sliding Window to count the number of pairs with distance <= guess.
+We will use a method called Sliding Window to count the number of pairs with distance <= guess.
 
 For every possible right, we maintain the loop invariant: left is the smallest value such that nums[right] - nums[left] <= guess. Then, the number of pairs with right as it's right-most endpoint is right - left, and we add all of these up.
 ```
